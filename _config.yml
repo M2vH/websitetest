@@ -1,7 +1,7 @@
-title: Website Test
-description: My first steps in GitHub Website
+title: The MineCr4ft Project
+description: My first steps in Minecraft server hosting on Azure
 google_analytics: UA-61449151-2
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-hacker
 
 gems:
