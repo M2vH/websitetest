@@ -1,0 +1,8 @@
+title: Website Test
+description: My first steps in GitHub Website
+google_analytics: UA-61449151-2
+show_downloads: true
+theme: jekyll-theme-hacker
+
+gems:
+  - jekyll-mentions
