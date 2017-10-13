@@ -9,38 +9,6 @@ Go [to the website](https://m2vh.github.io/websitetest/#mysvgcircle) to see the 
 html inside markdown file. we use the following html inside the markdown file.
 
 ```html
-<svg id="mysvgcircle" 
-     width="100" 
-     height="100" 
-     viewBox="0 0 500 500" 
-     preserveAspectRatio="none">
- 
-  <circle id="mycircle" 
-          cx="50" 
-          cy="50" 
-          r="40" 
-          stroke="green" 
-          stroke-width="4" 
-          fill="yellow" />
-</svg>
-
-<div height="200" width="100%">
-<svg id="mysvgpath" 
-     viewBox="0 0 500 500" 
-     preserveAspectRatio="none"
-     position="relative">
- <path d="M 200 125 m -100 0 a 100 100 0 1 0 200 0 a 100 100 0 1 0 -200 0" 
-       fill="yellow" 
-       id="mypath">
-</path>
- </svg>
-</div>
-```
-
-we should see a circle, and a path forming a circle.
-
-First a circle, where viewBox is size of parent div
-
 <div id="myExperiment">
 <div width="100" height="100">
 <svg id="mysvgcircle"  
@@ -57,13 +25,12 @@ First a circle, where viewBox is size of parent div
 </svg>
 </div>
 
-then draw a path with viewBox double size of parent div.
 
 <div id="myPathWrapper"
      height="200" 
      width="200">
      
-<svg id="mysvgpath" 
+<svg id="mySvgPath" 
      viewBox="0 0 400 400" 
      preserveAspectRatio="none"
      position="relative">
@@ -72,7 +39,50 @@ then draw a path with viewBox double size of parent div.
        fill="yellow" 
        stroke="green" 
        stroke-width="4" 
-       id="mypath">
+       id="myPath">
+       
+</path>
+ </svg>
+</div>
+</div>
+```
+
+we should see a circle, and a path forming a circle.
+
+First a circle, where viewBox is size of parent div
+
+<div id="myExperiment">
+<div width="100" height="100">
+<svg id="mySvgCircle"  
+     viewBox="0 0 100 100" 
+     preserveAspectRatio="none"
+     position="relative">
+  <circle id="myCircle" 
+          cx="50" 
+          cy="50" 
+          r="40" 
+          stroke="green" 
+          stroke-width="4" 
+          fill="yellow" />
+</svg>
+</div>
+
+then draw a path with viewBox double size of parent div.
+
+<div id="myPathWrapper"
+     height="200" 
+     width="200">
+     
+<svg id="mySvgPath" 
+     viewBox="0 0 400 400" 
+     preserveAspectRatio="none"
+     position="relative">
+     
+ <path d="M 200 200 m -100 0 a 100 100 0 1 0 200 0 a 100 100 0 1 0 -200 0" 
+       fill="yellow" 
+       stroke="green" 
+       stroke-width="4" 
+       id="myPath">
        
 </path>
  </svg>
