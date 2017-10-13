@@ -59,7 +59,7 @@ html inside markdown file. we use the following html inside the markdown file.
 
 we should see a circle, and a path forming a circle
 
-<svg id="mysvgcircle" width="100" height="200" viewBox="0 0 500 500" >
+<svg id="mysvgcircle" width="100" height="100" viewBox="0 0 500 500" >
   <circle 
   id="mycircle" 
   cx="50" 
