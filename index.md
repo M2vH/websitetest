@@ -94,3 +94,25 @@ then path with viewBox double size of parent div.
 </div>
 </div>
 
+## create a SVG circle
+
+```html
+<svg xmlns="http://www.w3.org/2000/svg">
+  <script>
+    var svg   = document.documentElement;
+    var svgNS = svg.namespaceURI;
+
+    var circle = document.createElementNS(svgNS,'circle');
+    circle.setAttribute('cx',100);
+    circle.setAttribute('cy',200);
+    circle.setAttribute('r',50);
+    circle.setAttribute('fill','red');
+    circle.setAttribute('stroke','black');
+    circle.setAttribute('stroke-width','20px');
+    circle.setAttribute('stroke-opacity','0.5');
+
+    svg.appendChild(circle);
+  </script>
+</svg>
+
+```
