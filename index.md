@@ -57,12 +57,14 @@ html inside markdown file. we use the following html inside the markdown file.
 </div>
 ```
 
-we should see a circle, and a path forming a circle
+we should see a circle, and a path forming a circle.
+
+First a circle, where viewBox is size of parent div
 
 <div id="myExperiment">
 <div width="100" height="100">
 <svg id="mysvgcircle"  
-     viewBox="0 0 500 500" 
+     viewBox="0 0 100 100" 
      preserveAspectRatio="none"
      position="relative">
   <circle id="mycircle" 
@@ -75,12 +77,14 @@ we should see a circle, and a path forming a circle
 </svg>
 </div>
 
+then path with viewBox double size of parent div.
+
 <div height="200" width="200">
 <svg id="mysvgpath" 
-     viewBox="0 0 500 500" 
+     viewBox="0 0 400 400" 
      preserveAspectRatio="none"
      position="relative">
- <path d="M 200 125 m -100 0 a 100 100 0 1 0 200 0 a 100 100 0 1 0 -200 0" 
+ <path d="M 200 200 m -100 0 a 100 100 0 1 0 200 0 a 100 100 0 1 0 -200 0" 
        fill="yellow" 
        stroke="green" 
        stroke-width="4" 
