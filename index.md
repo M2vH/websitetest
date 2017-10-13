@@ -96,3 +96,11 @@ then draw a path with viewBox double size of parent div.
 </svg>
 
 ```
+
+## use some javascript
+
+```javascript
+$('#wrapper').animate({width:550},5000,function(){
+    $(this).animate({height:100},5000);
+});
+```
