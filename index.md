@@ -44,29 +44,42 @@ html inside markdown file. we use the following html inside the markdown file.
           fill="yellow" />
 </svg>
 
+<div height="200" width="100%">
 <svg id="mysvgpath" 
-     width="100" 
-     height="100" 
-     viewBox="0 0 500 500"  
-     preserveAspectRatio="none">
- 
+     viewBox="0 0 500 500" 
+     preserveAspectRatio="none"
+     position="relative">
  <path d="M 200 125 m -100 0 a 100 100 0 1 0 200 0 a 100 100 0 1 0 -200 0" 
        fill="yellow" 
        id="mypath">
- </path>
- 
-</svg>
-
+</path>
+ </svg>
+</div>
 ```
 
 we should see a circle, and a path forming a circle
 
-<svg id="mysvgcircle" width="100" height="100" viewBox="0 0 500 500" >
-  <circle id="mycircle" cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+<svg id="mysvgcircle" width="100" height="200" viewBox="0 0 500 500" >
+  <circle 
+  id="mycircle" 
+  cx="50" 
+  cy="50" 
+  r="40" 
+  stroke="green" 
+  stroke-width="4" 
+  fill="yellow" />
 </svg>
 
-<svg id="mysvgpath" width="100" height="100" viewBox="0 0 500 500" preserveAspectRatio="none">
- <path d="M 200 125 m -100 0 a 100 100 0 1 0 200 0 a 100 100 0 1 0 -200 0" fill="yellow" id="mypath">
+<div height="200" width="100%">
+<svg id="mysvgpath" 
+     viewBox="0 0 500 500" 
+     preserveAspectRatio="none"
+     position="relative">
+ <path d="M 200 125 m -100 0 a 100 100 0 1 0 200 0 a 100 100 0 1 0 -200 0" 
+       fill="yellow" 
+       stroke="green" 
+       stroke-width="4" 
+       id="mypath">
 </path>
  </svg>
-
+</div>
