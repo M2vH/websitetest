@@ -70,7 +70,7 @@ we should see a circle, and a path forming a circle
   fill="yellow" />
 </svg>
 
-<div height="200" width="100%">
+<div height="200" width="200">
 <svg id="mysvgpath" 
      viewBox="0 0 500 500" 
      preserveAspectRatio="none"
