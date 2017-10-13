@@ -59,16 +59,21 @@ First a circle, where viewBox is size of parent div
 
 then draw a path with viewBox double size of parent div.
 
-<div height="200" width="200">
+<div id="myPathWrapper"
+     height="200" 
+     width="200">
+     
 <svg id="mysvgpath" 
      viewBox="0 0 400 400" 
      preserveAspectRatio="none"
      position="relative">
+     
  <path d="M 200 200 m -100 0 a 100 100 0 1 0 200 0 a 100 100 0 1 0 -200 0" 
        fill="yellow" 
        stroke="green" 
        stroke-width="4" 
        id="mypath">
+       
 </path>
  </svg>
 </div>
