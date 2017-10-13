@@ -29,14 +29,32 @@ under the line
 html inside markdown file. we use the following html inside the markdown file.
 
 ```html
-<svg id="mysvgcircle" width="100" height="100" viewBox="0 0 500 500" preserveAspectRatio="none">
-  <circle id="mycircle" cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+<svg id="mysvgcircle" 
+     width="100" 
+     height="100" 
+     viewBox="0 0 500 500" 
+     preserveAspectRatio="none">
+ 
+  <circle id="mycircle" 
+          cx="50" 
+          cy="50" 
+          r="40" 
+          stroke="green" 
+          stroke-width="4" 
+          fill="yellow" />
 </svg>
 
-<svg id="mysvgpath" width="100" height="100" viewBox="0 0 500 500" >
- <path d="M 200 125 m -100 0 a 100 100 0 1 0 200 0 a 100 100 0 1 0 -200 0" fill="yellow" id="mypath">
-</path>
- </svg>
+<svg id="mysvgpath" 
+     width="100" 
+     height="100" 
+     viewBox="0 0 500 500" >
+ 
+ <path d="M 200 125 m -100 0 a 100 100 0 1 0 200 0 a 100 100 0 1 0 -200 0" 
+       fill="yellow" 
+       id="mypath">
+ </path>
+ 
+</svg>
 
 ```
 
