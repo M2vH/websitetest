@@ -1,30 +1,10 @@
-### Welcome to my project website test.
+# Welcome to my project website test.
  This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here [using GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/), select a template crafted by a designer, and publish.
 
 
-## Lets find out about h2 headline...
 
- some text here
-
- ```bash
-
-    #!/bin/bash
-    some bash code here
-
-``` 
-
-some text here and...
-
-
-----
-
-some text below the line.
-
-# ...and h1 as well.
-
- and some `code` inside some text.
  
-# some svg experiment
+## some svg experiment
 
 html inside markdown file. we use the following html inside the markdown file.
 
@@ -77,7 +57,7 @@ First a circle, where viewBox is size of parent div
 </svg>
 </div>
 
-then path with viewBox double size of parent div.
+then draw a path with viewBox double size of parent div.
 
 <div height="200" width="200">
 <svg id="mysvgpath" 
