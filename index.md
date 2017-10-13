@@ -59,16 +59,21 @@ html inside markdown file. we use the following html inside the markdown file.
 
 we should see a circle, and a path forming a circle
 
-<svg id="mysvgcircle" width="100" height="100" viewBox="0 0 500 500" >
-  <circle 
-  id="mycircle" 
-  cx="50" 
-  cy="50" 
-  r="40" 
-  stroke="green" 
-  stroke-width="4" 
-  fill="yellow" />
+<div id="myExperiment">
+<div width="100" height="100">
+<svg id="mysvgcircle"  
+     viewBox="0 0 500 500" 
+     preserveAspectRatio="none"
+     position="relative">
+  <circle id="mycircle" 
+          cx="50" 
+          cy="50" 
+          r="40" 
+          stroke="green" 
+          stroke-width="4" 
+          fill="yellow" />
 </svg>
+</div>
 
 <div height="200" width="200">
 <svg id="mysvgpath" 
@@ -83,3 +88,5 @@ we should see a circle, and a path forming a circle
 </path>
  </svg>
 </div>
+</div>
+
