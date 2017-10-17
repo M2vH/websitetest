@@ -17,3 +17,4 @@ gems:
 
 exclude:
  - README.md
+ - gh-pages.md
