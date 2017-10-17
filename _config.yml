@@ -1,7 +1,15 @@
+# Site Settings
 title: Website Test Project
 description: My first steps in creating Jekyll websites on GitHub 
+
+# My SEO
 google_analytics: UA-61449151-2
+
+# My Functionality
 show_downloads: false
+
+# Build Settings
+markdown: kramdown
 theme: jekyll-theme-hacker
 
 gems:
