@@ -1,7 +1,7 @@
 # Welcome to my project website test.
  This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here [using GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/), select a template crafted by a designer, and publish.
 
-Go [to the website](https://m2vh.github.io/websitetest/#mysvgcircle) to see the site in action.
+Go [to the website](https://m2vh.github.io/websitetest/#myExperiment) to jump to the svg section of this site.
 
  
 ## some svg experiment
@@ -91,7 +91,7 @@ then draw a path with viewBox double size of parent div.
 
 ## create a SVG circle
 
-```html
+```xml
 <svg xmlns="http://www.w3.org/2000/svg">
   <script>
     var svg   = document.documentElement;
