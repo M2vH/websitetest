@@ -1,12 +1,1 @@
-
-[comment]: # (
-
-/* 
-
-*/
-
-/*
-# This is a comment
-*/
-
-)
+This is the folder where the HTML pages are generated and stored.
