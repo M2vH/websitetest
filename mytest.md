@@ -1,5 +1,6 @@
 ---
 title: My test.
+layout: project
 permalink: mytest.html
 ---
 And this is the text I want to show. 
