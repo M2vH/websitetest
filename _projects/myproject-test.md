@@ -1,5 +1,6 @@
 ---
 title: My project test.
+permalink: mytest/
 ---
 And this is the text I want to show. 
 Because the defaults are set in _config.yml, 
