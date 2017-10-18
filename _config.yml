@@ -10,7 +10,7 @@ show_downloads: false
 
 # Build Settings
 markdown: kramdown
-theme: jekyll-theme-hacker
+# theme: jekyll-theme-hacker
 
 gems:
   - jekyll-mentions
