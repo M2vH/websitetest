@@ -8,4 +8,4 @@ Because the defaults are set in _config.yml,
 this text will be formated as written
 in the project layout.
 
-The RAW file can be found [here](https://github.com/M2vH/websitetest/raw/gh-pages/_layouts/project.md)
+The RAW file can be found [here](https://github.com/M2vH/websitetest/raw/gh-pages/_layouts/project.html)
