@@ -54,8 +54,8 @@ we should see a circle, and a path forming a circle.
 First a circle, where viewBox is size of parent div
 
 <div id="myExperiment">
-<div width="100" height="100">
-<svg id="mySvgCircle"  
+ <div width="100" height="100">
+  <svg id="mySvgCircle"  
      viewBox="0 0 100 100" 
      preserveAspectRatio="none"
      position="relative">
@@ -66,15 +66,16 @@ First a circle, where viewBox is size of parent div
           stroke="green" 
           stroke-width="4" 
           fill="yellow" />
-</svg>
-</div>
+  </svg>
+ </div>
 
 then draw a path with viewBox double size of parent div.
 
 <div id="myWrapperBox">
 
- <div id="myPathWrapper"
-     <svg id="mySvgPath" 
+ <div id="myPathWrapper">
+
+  <svg id="mySvgPath" 
       viewBox="0 0 400 400" 
       preserveAspectRatio="none"
       position="relative">
