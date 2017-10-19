@@ -11,45 +11,50 @@ Please [klick](./mytest) to jump to project layout.
 html inside markdown file. we use the following html inside the markdown file.
 
 ```html
+
 <div id="myExperiment">
-<div width="100" height="100">
-<svg id="mysvgcircle"  
+ <div width="100" height="100">
+  <svg id="mySvgCircle"  
      viewBox="0 0 100 100" 
      preserveAspectRatio="none"
      position="relative">
-  <circle id="mycircle" 
+  <circle id="myCircle" 
           cx="50" 
           cy="50" 
           r="40" 
           stroke="green" 
           stroke-width="4" 
           fill="yellow" />
-</svg>
-</div>
+  </svg>
+ </div>
 
+<div id="myWrapperBox">
 
-<div id="myPathWrapper"
-     height="200" 
-     width="200">
+ <div id="myPathWrapper">
+
+  <svg id="mySvgPath" 
+      viewBox="0 0 400 400" 
+      preserveAspectRatio="none"
+      position="relative">
      
-<svg id="mySvgPath" 
-     viewBox="0 0 400 400" 
-     preserveAspectRatio="none"
-     position="relative">
-     
- <path d="M 200 200 m -100 0 a 100 100 0 1 0 200 0 a 100 100 0 1 0 -200 0" 
+   <path d="M 200 200 m -100 0 a 100 100 0 1 0 200 0 a 100 100 0 1 0 -200 0" 
        fill="yellow" 
        stroke="green" 
        stroke-width="4" 
        id="myPath">
        
-</path>
- </svg>
-</div>
-</div>
+   </path>
+  </svg>
+ </div> <!-- myPathWrapper -->
+</div> <!-- myWrapperbOX -->
+
+</div> <!-- myExperiment -->
+
 ```
 
-we should see a circle, and a path forming a circle.
+### The SVG in action
+
+We should see a circle, and a path forming a circle.
 
 First a circle, where viewBox is size of parent div
 
@@ -92,9 +97,10 @@ then draw a path with viewBox double size of parent div.
 </div> <!-- myWrapperbOX -->
 </div>
 
-## create a SVG circle
+## create a SVG circle with a script
 
 ```xml
+
 <svg xmlns="http://www.w3.org/2000/svg">
   <script>
     var svg   = document.documentElement;
@@ -115,7 +121,7 @@ then draw a path with viewBox double size of parent div.
 
 ```
 
-## use some javascript
+## use some javascript to animate :-(
 
 we still get Error Codes when trying to use javascript.
 
@@ -123,4 +129,29 @@ we still get Error Codes when trying to use javascript.
 $('#wrapper').animate({width:550},5000,function(){
     $(this).animate({height:100},5000);
 });
+```
+
+so we use CSS to animate
+
+```css
+#myPathWrapper {
+  animation-duration: 3s;
+  animation-name: pump;
+  animation-iteration-count: 10;
+  animation-direction: alternate;
+}
+
+@keyframes pump {
+  from {
+    width: 100px;
+  }
+  to {
+    width:500px;
+  }
+}
+
+#myWrapperBox {
+  height: 500px;
+}
+
 ```
