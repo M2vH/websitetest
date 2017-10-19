@@ -71,24 +71,24 @@ First a circle, where viewBox is size of parent div
 
 then draw a path with viewBox double size of parent div.
 
-<div id="myPathWrapper"
-     height="200" 
-     width="200">
+<div id="myWrapperBox">
+
+ <div id="myPathWrapper"
+     <svg id="mySvgPath" 
+      viewBox="0 0 400 400" 
+      preserveAspectRatio="none"
+      position="relative">
      
-<svg id="mySvgPath" 
-     viewBox="0 0 400 400" 
-     preserveAspectRatio="none"
-     position="relative">
-     
- <path d="M 200 200 m -100 0 a 100 100 0 1 0 200 0 a 100 100 0 1 0 -200 0" 
+  <path d="M 200 200 m -100 0 a 100 100 0 1 0 200 0 a 100 100 0 1 0 -200 0" 
        fill="yellow" 
        stroke="green" 
        stroke-width="4" 
        id="myPath">
        
-</path>
+ </path>
  </svg>
-</div>
+</div> <!-- myPathWrapper -->
+</div> <!-- myWrapperbOX -->
 </div>
 
 ## create a SVG circle
@@ -115,6 +115,8 @@ then draw a path with viewBox double size of parent div.
 ```
 
 ## use some javascript
+
+we still get Error Codes when trying to use javascript.
 
 ```javascript
 $('#wrapper').animate({width:550},5000,function(){
