@@ -6,3 +6,19 @@
 .container {
   max-width: 800px;
 }
+
+#myPathWrapper {
+  animation-duration: 3s;
+  animation-name: pump;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes pump {
+  from {
+    width: 100px;
+  }
+  to {
+    width:500px;
+  }
+}
