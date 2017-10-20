@@ -7,6 +7,18 @@
   max-width: 800px;
 }
 
+/*
+  Modify the Header
+*/
+
+header h1,h2 {
+  margin-left: 5x;
+}
+
+/*
+  Modify the index.html
+*/
+
 #myPathWrapper {
   animation-duration: 3s;
   animation-name: pump;
