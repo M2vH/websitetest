@@ -27,10 +27,11 @@ header h1::after {
 
 @keyframes blink {
   from {
-    display: none;
+    /* display: none; */
+    font-size: 90%;
   }
   to {
-    display: block;
+    /* display: block; */
   }
 }
 
