@@ -15,6 +15,26 @@ header h1,h2 {
   margin-left: 5px;
 }
 
+header h1::after {
+    content: " _";
+    font-size: 24px;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: blink;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes blink {
+  from {
+    display: none;
+  }
+  to {
+    display: block;
+  }
+}
+
+
 /*
   Modify the index.html
 */
