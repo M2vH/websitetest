@@ -160,13 +160,19 @@ so we use CSS to animate
 
 the raw file is found here: https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg
 
-![link](https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg?sanitize=true)
+### the svg is displayed on the github page
 
+We use `?sanitize=true` at the end of raw file link.
+
+![https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg](https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg?sanitize=true)
 
 markdown looks like this
 
 ```markdown
 
-![link](https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg)
+![link](https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg?sanitize=true)
 
 ```
+
+<div id="myExternalSvg">
+</div>
