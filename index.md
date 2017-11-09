@@ -162,7 +162,7 @@ the raw file is found here: https://raw.githubusercontent.com/M2vH/websitetest/g
 
 ### the svg is displayed on the github page
 
-We use `?sanitize=true` at the end of raw file link.
+We use `?sanitize=true` at the end of the link pointing to the raw file .
 
 ![https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg](https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg?sanitize=true)
 
@@ -174,9 +174,25 @@ markdown looks like this
 
 ```
 
+### link to external svg file in markdown
+
+We want to use the <object> tag to include external svg file
+
 <div id="myExternalSvg">
  <object id="myObject"
          data="https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg?sanitize=true"
          type="image/svg+xml">
  </object>
 </div>
+
+```markdown
+
+<div id="myExternalSvg">
+ <object id="myObject"
+         data="https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg?sanitize=true"
+         type="image/svg+xml">
+ </object>
+</div>
+
+
+```
