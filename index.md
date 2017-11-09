@@ -178,14 +178,7 @@ The markdown looks like this
 
 ### link to external svg file in markdown
 
-We want to use the <object> tag to include external svg file
-
-<div id="myExternalSvg">
- <object id="myObject"
-         data="https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg"
-         type="image/svg+xml">
- </object>
-</div>
+We want to use the `<object>` tag to include external svg file
 
 ```markdown
 
@@ -196,5 +189,14 @@ We want to use the <object> tag to include external svg file
  </object>
 </div>
 
-
 ```
+
+The `<object>`-tag is not working properly, because the github-server is sending `X-Frame: deny` in its header.
+Let's see, if `<img>` is  possible.
+
+<div id="myExternalSvg">
+ <img id="myObject"
+         src="https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg">
+ </img>
+</div>
+
