@@ -1,4 +1,5 @@
-  <svg id="mySvgPath" 
+  <svg xmlns="http://www.w3.org/2000/svg"
+      id="mySvgPath" 
       viewBox="0 0 400 400" 
       preserveAspectRatio="none"
       position="relative">
