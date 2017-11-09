@@ -156,17 +156,19 @@ so we use CSS to animate
 
 ```
 
+
 ## use a link to raw github file to display svg-file 
 
 the raw file is found here: https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg
 
-### the svg is displayed on the github page
+### the svg should be displayed on the github page
 
-We use `?sanitize=true` at the end of the link pointing to the raw file .
+We use `?sanitize=true` at the end of the link to point to the raw file.
+The svg will be displayed on gh-pages website as well.
 
 ![https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg](https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg?sanitize=true)
 
-markdown looks like this
+The markdown looks like this
 
 ```markdown
 
@@ -180,7 +182,7 @@ We want to use the <object> tag to include external svg file
 
 <div id="myExternalSvg">
  <object id="myObject"
-         data="https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg?sanitize=true"
+         data="https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg"
          type="image/svg+xml">
  </object>
 </div>
@@ -189,7 +191,7 @@ We want to use the <object> tag to include external svg file
 
 <div id="myExternalSvg">
  <object id="myObject"
-         data="https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg?sanitize=true"
+         data="https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg"
          type="image/svg+xml">
  </object>
 </div>
