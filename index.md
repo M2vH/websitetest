@@ -196,6 +196,5 @@ Let's see, if `<img>` is  possible.
 
 <div id="myExternalSvg">
  <img id="myObject" src="https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg?sanitize=true">
- </img>
 </div>
 
