@@ -160,11 +160,13 @@ so we use CSS to animate
 
 the raw file is found here: https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg
 
+![link](https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg?sanitize=true)
 
-markdown could look like this
+
+markdown looks like this
 
 ```markdown
 
-[link](https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg)
+![link](https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg)
 
 ```
