@@ -155,3 +155,16 @@ so we use CSS to animate
 }
 
 ```
+
+## use a link to raw github file to display svg-file 
+
+the raw file is found here: https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg
+
+
+markdown could look like this
+
+```markdown
+
+[link](https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg)
+
+```
