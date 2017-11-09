@@ -175,4 +175,8 @@ markdown looks like this
 ```
 
 <div id="myExternalSvg">
+ <object id="myObject"
+         data="https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/assets/svg/mytest.svg?sanitize=true"
+         type="image/svg+xml">
+ </object>
 </div>
