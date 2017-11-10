@@ -13,8 +13,11 @@ The RAW file can be found [here](https://github.com/M2vH/websitetest/raw/gh-page
 I would like to display some code snippets, but `{% highlight html %}` is not working.
 
 
-{% highlight html lineos %}
+
+```html
+
 <!-- layout:project -->
+
 <!DOCTYPE HTML>
 <html>
   <head>
@@ -31,4 +34,5 @@ I would like to display some code snippets, but `{% highlight html %}` is not wo
     </div>
   </body>
 </html>
-{% endhighlight %}
+
+```
