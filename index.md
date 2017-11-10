@@ -3,7 +3,7 @@
 
 Please [klick](https://m2vh.github.io/websitetest/#myExperiment) to jump to the svg section of this site.
 
-Please [klick](./mytest) to jump to project layout.
+Please [klick](./mytest) this hard link to jump to project layout.
 
  
 ## some svg experiment
