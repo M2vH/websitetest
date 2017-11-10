@@ -32,6 +32,5 @@ I would like to display some svg code snippets.
 
 ```
 
-
 EndOfContainer
-----
+---
