@@ -14,14 +14,16 @@ name: sample
         <li><a href="{{ site.index }}">SAMPLE</a></li>
         </ul>
       </nav>
-    <div class="date">
-      {{ page.date }}
-      </div>
     <div class="container">
+        <div class="date">
+          {{ page.date }}
+        </div>
+
       {{ content }}  
-    </div>
-    <div class="footer">Codename:&nbsp;
-      {{ page.codename }}!
+    
+        <div class="footer">Codename:&nbsp;
+          {{ page.codename }}!
+        </div>
     </div>
   </body>
 </html>
