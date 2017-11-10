@@ -15,7 +15,7 @@ in the project layout.
 The RAW file can be found [here](https://github.com/M2vH/websitetest/raw/gh-pages/_layouts/project.html)
 
 
-This is the last line. Next line contains `\<\!-- Comment --\>`. 
+This is the last line. Next line contains comment. 
 
 <!--
 This text is not displayed.
@@ -24,6 +24,6 @@ EndOfComment
 
 ```html
 <!-- comment -->
-&lt;!-- Comment --&gt;
+
 ```
 
