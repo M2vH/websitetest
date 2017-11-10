@@ -13,6 +13,6 @@ Create overview layout
 
 ```html
 
-<!-- layout:project -->
+<!-- layout is project -->
 
 ```
