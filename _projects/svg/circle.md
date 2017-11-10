@@ -7,19 +7,19 @@ This is a page about circle in SVG.
 On this page I want to show 3 ways of how to display a svg circle.
 
 
-### Inline SVG
+## Inline SVG
 The svg markup is written inline the html.
 
 
-### External SVG
+## External SVG
 The svg markup is written in an external file.  
 
 
-#### External file inside project
+### External file inside project
 This file is stored in this github project
 
 
-#### External file outside of my project
+### External file outside of my project
 
 The RAW file can be found [here](https://github.com/M2vH/websitetest/raw/...)
 
