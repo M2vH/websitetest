@@ -10,8 +10,11 @@ in the project layout.
 
 The RAW file can be found [here](https://github.com/M2vH/websitetest/raw/gh-pages/_layouts/project.md)
 
-We can display some code snippets, html test
+I would like to display some code snippets, but `{% highlight html %}` is not working.
+
+
 {% highlight html lineos %}
+<!-- layout:project -->
 <!DOCTYPE HTML>
 <html>
   <head>
@@ -23,7 +26,6 @@ We can display some code snippets, html test
         <li><a href="{{ site.index }}">Home</a></li>
         </ul>
       </nav>
-    
     <div class="container">
     {{ content }}  
     </div>
