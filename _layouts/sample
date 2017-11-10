@@ -1,0 +1,24 @@
+---
+layout: default
+designed: 2017-10-18 12:00:00 -0200
+name: sample
+---
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>{{ page.title | hello world! }}</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="{{ site.index }}">Home</a></li>
+        </ul>
+      </nav>
+    
+    <div class="container">
+    {{ content }}  
+    </div>
+    <div class="footer">
+    {{ designed }}</div>
+  </body>
+</html>
