@@ -3,6 +3,7 @@ title: svg circle
 layout: sample
 permalink: projects/svg/circle.html
 date: 2017-11-10 12:00:00 -0200
+codename: m2vh
 ---
 This is a page about circle in SVG.  
 On this page I want to show 3 ways of how to display a svg circle.
