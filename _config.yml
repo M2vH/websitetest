@@ -23,6 +23,8 @@ gems:
 collections:
   projects:
     output: true
+  site:
+    output: true
 
 # Layout Settings
 defaults:
