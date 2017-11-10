@@ -1,5 +1,5 @@
 ---
-title: My projects overview
+title: My overview
 layout: project
 permalink: projects/projects-overview.html
 ---
