@@ -1,38 +1,18 @@
 ---
-title: My project test.
+title: My projects overview
 layout: project
-permalink: projects/myproject-test.html
+permalink: projects/projects-overview.html
 ---
 And this is the text I want to show. 
-Because the defaults are set in _config.yml, 
-this text will be formated as written
-in the project layout.
+This page should display a link list of all folders inside the projects folder.
 
-The RAW file can be found [here](https://github.com/M2vH/websitetest/raw/gh-pages/_layouts/project.md)
-
-I would like to display some code snippets, but `highlight html` is not working.
-
+<!-- ToDo: 
+Create overview layout
+ -->
 
 
 ```html
 
 <!-- layout:project -->
-
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <title>{{ page.title | hello world! }}</title>
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li><a href="{{ site.index }}">Home</a></li>
-        </ul>
-      </nav>
-    <div class="container">
-    {{ content }}  
-    </div>
-  </body>
-</html>
 
 ```
