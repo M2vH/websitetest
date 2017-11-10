@@ -4,7 +4,7 @@ layout: project
 permalink: mytest.html
 ---
 
-PathToFile:  websitetest/mytest.md
+PathToFile:  websitetest/mytest.md  
 Permalink:  mytest.html
 
 And this is the text I want to show. 
