@@ -10,7 +10,7 @@ in the project layout.
 
 The RAW file can be found [here](https://github.com/M2vH/websitetest/raw/gh-pages/_layouts/project.md)
 
-I would like to display some code snippets, but `{% highlight html %}` is not working.
+I would like to display some code snippets, but `highlight html` is not working.
 
 
 
