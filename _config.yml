@@ -23,16 +23,26 @@ gems:
 collections:
   projects:
     output: true
-  site:
+  samples:
     output: true
 
 # Layout Settings
 defaults:
- -
-   scope:
+ - scope:
      path: "projects"
      type: "pages" # We can create our own collection, if we like.
-   values:
+
+- scope:
+  path: ""
+     values:
      layout: "project"
      author: "Marco M. von Hagen"
      codename: "m2vh"
+     
+ - scope:
+  path: "samples"
+  type: "pages"
+   values:
+     layout: "sample"
+     author: "Marco M. von Hagen"
+     codename: "m2vh_config"
