@@ -25,6 +25,7 @@ collections:
     output: true
   samples:
     output: true
+    layout: "sample"
 
 # Layout Settings
 defaults:
