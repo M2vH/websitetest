@@ -39,7 +39,8 @@ defaults:
       codename: "m2vh"
   -
     scope:
-      path: "samples"
+      path: ""
+      type: "samples"
     values:
       layout: "sample"
       codename: "m2vh_config"
