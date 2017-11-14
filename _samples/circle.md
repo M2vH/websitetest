@@ -39,7 +39,7 @@ We include a circle by referencing to an external SVG-file.
 </object>
 </div>
 
-<!--
+
 <div id="my_circle_script">
   <script>
   function myCircleFunction() {
@@ -52,4 +52,4 @@ We include a circle by referencing to an external SVG-file.
     }
 </script>
   </div>
--->
+
