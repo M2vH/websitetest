@@ -24,6 +24,12 @@ We include a circle by referencing to an external SVG-file.
 </div>
 
 ```
+<!-- we get the script from gist -->
+<div id="my_circle_script">
+<script src="https://gist.github.com/M2vH/49ed98ba53d3c05a3b51ddbb24e6a6b5.js"></script>
+</div>
+
+
 <div id="my_button">
 <button name="circle_button" onclick="myCircleFunction()">Klick Me</button>
 </div>
@@ -39,13 +45,4 @@ We include a circle by referencing to an external SVG-file.
 </object>
 </div>
 
-<div id="my_circle_script">
-<script src="https://gist.github.com/M2vH/49ed98ba53d3c05a3b51ddbb24e6a6b5.js"></script>
-</div>
-
-<!---
-<div id="my_circle_script">
-<script src="https://gist.github.com/M2vH/49ed98ba53d3c05a3b51ddbb24e6a6b5.js"></script>
-</div>
--->
 
