@@ -30,12 +30,6 @@ We include a circle by referencing to an external SVG-file.
 </div>
 
 
-<!--
-<div>
-    <script src="https://gist.githubusercontent.com/M2vH/49ed98ba53d3c05a3b51ddbb24e6a6b5/raw/7726f388816a8bdcdea7caf8d5be80064269bcb5/mysvgscripts.js"></script>
-</div>
--->
-
 <div id="my_button">
 <button name="circle_button" onclick="myCircleFunction()">Klick Me</button>
 </div>
