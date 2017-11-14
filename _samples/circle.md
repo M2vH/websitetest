@@ -41,15 +41,6 @@ We include a circle by referencing to an external SVG-file.
 
 
 <div id="my_circle_script">
-  <script>
-  function myCircleFunction() {
-      var x = document.getElementById("my_circle_svg");
-      if (x.style.width === "100%") {
-        x.style.width = "50%";
-    } else {
-        x.style.width = "100%";
-    }    
-    }
-</script>
-  </div>
+<script src="https://gist.github.com/M2vH/49ed98ba53d3c05a3b51ddbb24e6a6b5.js"></script>
+</div>
 
