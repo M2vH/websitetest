@@ -24,6 +24,10 @@ We include a circle by referencing to an external SVG-file.
 </div>
 
 ```
+<div id="my_button">
+<button name="circle_button" onclick="myCircleFunction()">Klick Me</button>
+</div>
+
 
 
 <div id="my_circle" min-width="200px" max-width="500px">
@@ -34,10 +38,8 @@ We include a circle by referencing to an external SVG-file.
 
 </object>
 </div>
-<div id="my_button">
-<button name="circle_button" onclick="myCircleFunction()">Klick Me</button>
-</div>
 
+<!--
 <div id="my_circle_script">
   <script>
   function myCircleFunction() {
@@ -46,8 +48,8 @@ We include a circle by referencing to an external SVG-file.
         x.style.width = "50%";
     } else {
         x.style.width = "100%";
-    }
-    
+    }    
     }
 </script>
   </div>
+-->
