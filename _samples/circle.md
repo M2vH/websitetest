@@ -26,8 +26,8 @@ We include a circle by referencing to an external SVG-file.
 ```
 
 
-<div id="my_circle_svg" min-width="200px" max-width="500px">
-<object data="./svg/circle.svg" type="image/svg+xml" id="my_circle">
+<div id="my_circle" min-width="200px" max-width="500px">
+<object data="./svg/circle.svg" type="image/svg+xml" id="my_circle_svg">
 
 <!-- we need the <img> tag to display on github -->
 <img src="https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/_samples/svg/circle.svg?sanitize=true">
@@ -35,5 +35,15 @@ We include a circle by referencing to an external SVG-file.
 </object>
 </div>
 <div id="my_button">
-<button name="circle_button">Klick Me</button>
+<button name="circle_button" onclick="myCircleFunction()">Klick Me</button>
 </div>
+
+<div id="my_circle_script">
+  <script>
+  function myCircleFunction() {
+      var x = document.getElementById("my_circle_svg");
+        
+    
+    }
+</script>
+  </div>
