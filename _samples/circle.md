@@ -58,5 +58,11 @@ We include a circle by referencing to an external SVG-file.
     }    
 }
   </script>
+  
+    <!-- START include myscript.js -->
+    <!-- {% include myinclude.html %} -->
+ {% include testinclude.html %}
+    <!-- END myscript.js -->
+
 
 
