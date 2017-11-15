@@ -26,6 +26,8 @@ collections:
   samples:
     output: true
     layout: "sample"
+  includes:
+    output: true
 
 # Layout Settings
 defaults:
