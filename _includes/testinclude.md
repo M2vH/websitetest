@@ -1,4 +1,3 @@
 ---
 ---
-<div id="test">
-</div>
+<div id="test">testinclude</div>
