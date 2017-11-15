@@ -1,3 +1,3 @@
-(function(){console.log("Hello m2vh");});
+(console.log("Hello m2vh"));
 
 
