@@ -64,3 +64,7 @@ We include a circle by referencing to an external SVG-file.
 <script src="../assets/js/myscript.js" type="text/javascript">
 </script>
 
+<!-- START include -->
+{% include /myinclude.html %}
+<!-- END include -->
+
