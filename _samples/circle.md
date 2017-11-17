@@ -49,14 +49,14 @@ We include a circle by referencing to an external SVG-file.
     ToDo: Jekyll external script
 -->
 <script>
-    function myCircleFunction() {
-      var x = document.getElementById("my_circle_svg");
+    (function myCircleFunction() {
+      var x = document.getElementById("my_circle");
       if (x.style.width === "100%") {
         x.style.width = "50%";
     } else {
         x.style.width = "100%";
     }    
-}
+});
   </script>
 
 
