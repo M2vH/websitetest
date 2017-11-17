@@ -1,8 +1,6 @@
 ---
+
 ---
-
-
-
 <!-- get the script -->
 <script type="text/javascript"
         src="../assets/js/myscript.js">
