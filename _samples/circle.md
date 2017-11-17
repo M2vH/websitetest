@@ -68,12 +68,15 @@ We display a circle by referencing to an external SVG-file.
 
 <!-- the referenced script -->
 <script>
-    {% include /js/myCircleFunction.js %}
+    {% include myCircleFunction.md %}
 </script>
 
 <!-- Link to script using relative link -->
+<!-- working -->
+<!--
 <script src="../assets/js/myscript.js" type="text/javascript">
 </script>
+-->
 
 <!-- START include -->
 {% include myinclude.md %}
