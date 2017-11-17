@@ -1,5 +1,5 @@
 ---
-
+mytitle: test
 ---
 <!-- get the script -->
 <script type="text/javascript"
