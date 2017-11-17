@@ -1,3 +1,4 @@
+/* file: myCircleFunction.js */
 function myCircleFunction() {
   var x = document.getElementById("my_circle");
     if (x.style.width === "100%") {
