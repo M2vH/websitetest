@@ -79,6 +79,9 @@ We display a circle by referencing to an external SVG-file.
 -->
 
 <!-- START include -->
+<!-- WORKING -->
+<!--
 {% include myinclude.md %}
+-->
 <!-- END include -->
 
