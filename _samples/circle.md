@@ -1,5 +1,6 @@
 ---
 layout: sample
+regenerate: true
 author: Marco M. von Hagen
 codename: m2vh
 permalink: samples/circle.html
