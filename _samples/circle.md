@@ -7,10 +7,11 @@ permalink: samples/circle.html
 
 # The circle
 
+The [webpage](https://m2vh.github.io/websitetest/samples/circle.html).
 The RAW [file](https://raw.githubusercontent.com/M2vH/websitetest/gh-pages/_samples/svg/circle.svg).  
 The file on [github](https://github.com/M2vH/websitetest/blob/gh-pages/_samples/svg/circle.svg).
 
-We include a circle by referencing to an external SVG-file.
+We display a circle by referencing to an external SVG-file.
 
 ```html
 <!--  -->
@@ -49,14 +50,14 @@ We include a circle by referencing to an external SVG-file.
     ToDo: Jekyll external script
 -->
 <script>
-    (function myCircleFunction() {
+    function myCircleFunction() {
       var x = document.getElementById("my_circle");
       if (x.style.width === "100%") {
         x.style.width = "50%";
     } else {
         x.style.width = "100%";
     }    
-});
+}
   </script>
 
 
