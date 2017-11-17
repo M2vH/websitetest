@@ -30,7 +30,7 @@ We display a circle by referencing to an external SVG-file.
 <script src="https://gist.github.com/M2vH/49ed98ba53d3c05a3b51ddbb24e6a6b5.js"></script>
 </div>
 
-
+<!-- we need a button -->
 <div id="my_button">
 <button name="circle_button" onclick="myCircleFunction()">Klick Me</button>
 </div>
@@ -38,6 +38,7 @@ We display a circle by referencing to an external SVG-file.
 
 
 <div id="my_circle" min-width="200px" max-width="500px">
+<!-- we reference to svg in object -->
 <object data="./svg/circle.svg" type="image/svg+xml" id="my_circle_svg">
 
 <!-- we need the <img> tag to display on github -->
@@ -48,7 +49,10 @@ We display a circle by referencing to an external SVG-file.
 
 <!-- invoke inline 
     ToDo: Jekyll external script
+    create file _includes/js/myCircleFunction.js
 -->
+
+<!-- the inline script
 <script>
     function myCircleFunction() {
       var x = document.getElementById("my_circle");
@@ -59,7 +63,12 @@ We display a circle by referencing to an external SVG-file.
     }    
 }
   </script>
+ -->
 
+<!-- the referenced script -->
+<script>
+    {% include_relative /js/myCircleFunction.js %}
+</script>
 
 <!-- Link to script using relative link -->
 <script src="../assets/js/myscript.js" type="text/javascript">
