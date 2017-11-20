@@ -55,37 +55,9 @@ We display a circle by referencing to an external SVG-file.
     create file _includes/js/myCircleFunction.js
 -->
 
-<!-- the inline script
-<script>
-    function myCircleFunction() {
-      var x = document.getElementById("my_circle");
-      if (x.style.width === "100%") {
-        x.style.width = "50%";
-    } else {
-        x.style.width = "100%";
-    }    
-}
-  </script>
- -->
 
-
-<!-- Link to script using relative link -->
-<!-- working -->
-<!--
-<script src="../assets/js/myscript.js" type="text/javascript">
-</script>
--->
-
-<!-- START include -->
-<!-- WORKING -->
-<!--
-{% include myinclude.md %}
--->
-<!-- END include -->
 
 <!-- the referenced script -->
-<script>
-    {% include myCircleFunction.html %}
-</script>
+  {% include myCircleFunction.html %}
 
 
