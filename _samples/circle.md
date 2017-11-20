@@ -85,7 +85,7 @@ We display a circle by referencing to an external SVG-file.
 
 <!-- the referenced script -->
 <script>
-    {% include myCircleFunction.md %}
+    {% include myCircleFunction.html %}
 </script>
 
 
