@@ -6,10 +6,6 @@ codename: m2vh
 permalink: samples/circle.html
 ---
 
-<!-- the referenced script -->
-<script>
-    {% include myCircleFunction.md %}
-</script>
 
 
 # The circle
@@ -86,4 +82,10 @@ We display a circle by referencing to an external SVG-file.
 {% include myinclude.md %}
 -->
 <!-- END include -->
+
+<!-- the referenced script -->
+<script>
+    {% include myCircleFunction.md %}
+</script>
+
 
