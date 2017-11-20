@@ -6,6 +6,12 @@ codename: m2vh
 permalink: samples/circle.html
 ---
 
+<!-- the referenced script -->
+<script>
+    {% include myCircleFunction.md %}
+</script>
+
+
 # The circle
 
 The [webpage](https://m2vh.github.io/websitetest/samples/circle.html).  
@@ -66,10 +72,6 @@ We display a circle by referencing to an external SVG-file.
   </script>
  -->
 
-<!-- the referenced script -->
-<script>
-    {% include myCircleFunction.md %}
-</script>
 
 <!-- Link to script using relative link -->
 <!-- working -->
