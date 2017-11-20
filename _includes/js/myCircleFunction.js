@@ -1,5 +1,5 @@
 /* file: myCircleFunction.js */
-function myCircleFunction() {
+function myCircleFunction_i() {
   var x = document.getElementById("my_circle");
     if (x.style.width === "100%") {
       x.style.width = "50%";
