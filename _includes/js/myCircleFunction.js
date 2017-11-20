@@ -7,3 +7,4 @@ function myCircleFunction() {
       x.style.width = "100%";
     }    
 }
+console.log("_includes/js/myCircleFunction.js");
